@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('1.jpg'); /* Hình nền trang */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    text-align: center;
+  }
+  
+  .countdown-container {
+    background: rgba(0, 0, 0, 0.8); /* Nền mờ cho khung phát nhạc */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .countdown-display {
+    font-size: 5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .audio-player {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Nền nhẹ cho khung phát */
+    border-radius: 10px; /* Bo góc */
+    padding: 10px;
+  }
+  
+  #audio-player {
+    display: none; /* Ẩn thẻ audio gốc */
+  }
+  
+  img {
+    width: 100px; /* Kích thước ảnh bìa */
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .track-info {
+    flex-grow: 1;
+    text-align: left;
+    color: #fff; /* Màu chữ */
+  }
+  
+  #track-title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  #track-artist {
+    font-size: 1em;
+    color: #aaa;
+  }
+  

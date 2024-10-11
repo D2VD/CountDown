@@ -9,20 +9,20 @@ var secondsDisplay = document.getElementById('seconds');
 var musicPlaylist = [
   {
     src: "1.mp3", // Thay thế bằng tên file nhạc của bạn
-    title: "Song 1",
-    artist: "Artist 1",
+    title: "Song ",
+    artist: "Artist ",
     cover: "cover.jpg" // Thay thế bằng ảnh bìa của bài hát
   },
   {
     src: "2.mp3",
-    title: "Song  2",
-    artist: "Artist  2",
+    title: "Song  ",
+    artist: "Artist  ",
     cover: "cover.jpg"
   },
   {
     src: "3.mp3",
-    title: "Song  3",
-    artist: "Artist 3",
+    title: "Song",
+    artist: "Artist",
     cover: "cover.jpg"
   }
 ];
